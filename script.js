@@ -3,28 +3,28 @@ let input=''
 function clickbutton(event){
     let buttonvalue=event.target.innerHTML
     if (buttonvalue==1){
-        input=document.getElementById('inputid').value;
-        input=input+event.target.innerHTML;
+        input=document.getElementById('inputid').value
+        input=input+event.target.innerHTML
         document.getElementById('inputid').value=input
     }
     if (buttonvalue==2){
         input=document.getElementById('inputid').value;
-        input=input+event.target.innerHTML;
+        input=input+event.target.innerHTML
         document.getElementById('inputid').value=input
     }
     if (buttonvalue==3){
-        input=document.getElementById('inputid').value;
-        input=input+event.target.innerHTML;
+        input=document.getElementById('inputid').value
+        input=input+event.target.innerHTML
         document.getElementById('inputid').value=input
     }
     if (buttonvalue==4){
-        input=document.getElementById('inputid').value;
-        input=input+event.target.innerHTML;
+        input=document.getElementById('inputid').value
+        input=input+event.target.innerHTML
         document.getElementById('inputid').value=input
     }
     if (buttonvalue==5){
-        input=document.getElementById('inputid').value;
-        input=input+event.target.innerHTML;
+        input=document.getElementById('inputid').value
+        input=input+event.target.innerHTML
         document.getElementById('inputid').value=input
     }
     if (buttonvalue==6){
